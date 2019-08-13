@@ -103,13 +103,13 @@ background-image: static;
 
 h1 {
   color: white;
-  margin-top: 4em;
-  margin-left: 11.33em;
+  margin-top: 1em;
+  margin-left: 3.33em;
   }
 
 p {
   color: white;
-  margin-left: 23.26em;
+  margin-left: 4.26em;
   }
 
 .open {
@@ -119,16 +119,16 @@ position: absolute;
 
 .globe {
   image: static;
-  margin-left: 20em;
-  width: 20em;
-  height: 20em;
+  margin-left: 4em;
+  width: 8em;
+  height: 8em;
   border-radius: 50%;
 }
 
 
 /* The side navigation menu */
 .sidenav {
-  height: 14rem; /* 100% Full-height */
+  height: 7rem; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -136,16 +136,16 @@ position: absolute;
   left: 0;
   background-color: black; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 4rem; /* Place content 60px from the top */
+  padding-top: 2rem; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  margin-top: 12rem;
+  margin-top: 6rem;
    }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 3px 3px 3px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   color: white;
   display: block;
   transition: 0.3s;
@@ -160,9 +160,9 @@ position: absolute;
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 15px;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 }

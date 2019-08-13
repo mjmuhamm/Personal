@@ -86,7 +86,7 @@ position: absolute;
 @media screen and (max-height: 481px) {
   .sidenav {padding-top: 16px;}
   .sidenav a {font-size: 18px;}
-  .open {color: #FFFFFF; position: absolute;}
+  
 
 
   Body {
@@ -164,19 +164,6 @@ position: absolute;
     font-size: 36px;
     margin-left: 50px;
   }
-
-
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
-
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 481px) {
-    .sidenav {padding-top: 16px;}
-    .sidenav a {font-size: 18px;}
-    .open {color: #FFFFFF; position: absolute;}
 
 
   }

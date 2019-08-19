@@ -30,6 +30,44 @@ background-color: black;
       height: 20em;
       border-radius: 50%;
     }
+    .sidenav {
+      height: 14rem; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color: black; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 4rem; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      margin-top: 12rem;
+       }
+
+    /* The navigation menu links */
+    .sidenav a {
+
+      padding: 0 30px 20px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #818181;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
 }
 
 @media (max-width: 1355px) and (min-width: 1090px) {
@@ -53,123 +91,6 @@ p {
   height: 18em;
   border-radius: 50%;
 }
-}
-
-@media (max-width: 1089px)and (min-width: 994px) {
-body {
-padding-top: 75px;
-background-color: black;
-background-position: cover;
-
-}
-h1 {
-  margin: -1.4em auto .3em 8em;
-  color: white; }
-
-p {
- margin: auto auto 1em 266.16px;
- color: white;
-   }
-.globe {
-  image: static;
-  margin-left: 15em;
-  width: 17em;
-  height: 17em;
-  border-radius: 50%;
-}
-}
-
-
-@media (max-width: 994px) and (min-width: 630px) {
-body {
-padding-top: 80px;
-background-color: black;
-background-position: bottom;
-}
-h1 {
-  margin: 0 auto .3em 7.2em;
-  color: white; }
-
-p {
- margin: auto auto 1em 240.16px;
- color: white;
-   }
-.globe {
-  image: static;
-  margin-left: 14em;
-  margin-bottom: 9em;
-  width: 15em;
-  height: 15em;
-  border-radius: 50%;
-}
-}
-
-@media (max-width: 629px) and (min-width: 558px) {
-  body {
-  padding-top: 80px;
-  background-color: black;
-  background-position: bottom;
-  }
-  h1 {
-    margin: 0 auto .3em 4.7em;
-    color: white; }
-
-  p {
-   margin: auto auto 1em 163.16px;
-   color: white;
-     }
-  .globe {
-
-    margin-left: 10em;
-    margin-bottom: 9em;
-    width: 13.3em;
-    height: 13.3em;
-    border-radius: 50%;
-  }
-  }
-
-  @media (max-width: 558px) {
-
-    body {
-    margin-top: 110px;
-    padding: 10em auto;
-    background-color: black;
-    background-position: center;
-    }
-    h1 {
-      margin: 0 auto .3em 5.8em;
-      font-size: 25px;
-      color: white; }
-
-    p {
-     margin: auto auto 1em 151.16px;
-     font-size: 13px;
-     color: white;
-       }
-    .globe {
-
-      margin-left: 9em;
-      margin-bottom: 10.5em;
-      width: 11em;
-      height: 11em;
-      border-radius: 50%;
-    }
-    }
-
-
-.profile { border-radius: 50%;}
-
-
-
-.open {
-color: #FFFFFF;
-position: absolute;
- }
-
-
-
-
-/* The side navigation menu */
 .sidenav {
   height: 14rem; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -177,7 +98,7 @@ position: absolute;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: none; /* Black*/
+  background-color: black; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 4rem; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -208,3 +129,273 @@ position: absolute;
   font-size: 36px;
   margin-left: 50px;
 }
+}
+
+@media (max-width: 1089px)and (min-width: 994px) {
+body {
+padding-top: 75px;
+background-color: black;
+background-position: cover;
+
+}
+h1 {
+  margin: -1.4em auto .3em 8em;
+  color: white; }
+
+p {
+ margin: auto auto 1em 266.16px;
+ color: white;
+   }
+.globe {
+  image: static;
+  margin-left: 15em;
+  width: 17em;
+  height: 17em;
+  border-radius: 50%;
+}
+.sidenav {
+  height: 14rem; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 4rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  margin-top: 12rem;
+   }
+
+/* The navigation menu links */
+.sidenav a {
+
+  padding: 0 30px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #818181;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+}
+
+
+@media (max-width: 994px) and (min-width: 630px) {
+body {
+padding-top: 80px;
+background-color: black;
+background-position: bottom;
+}
+h1 {
+  margin: 0 auto .3em 7.2em;
+  color: white; }
+
+p {
+ margin: auto auto 1em 240.16px;
+ color: white;
+   }
+.globe {
+  image: static;
+  margin-left: 14.5em;
+  margin-bottom: 9em;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+}
+.sidenav {
+  height: 14rem; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 4rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  margin-top: 12rem;
+   }
+
+/* The navigation menu links */
+.sidenav a {
+
+  padding: 0 30px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #818181;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+}
+
+@media (max-width: 629px) and (min-width: 558px) {
+  body {
+  padding-top: 80px;
+  background-color: black;
+  background-position: bottom;
+  }
+  h1 {
+    margin: 0 auto .3em 4.7em;
+    color: white; }
+
+  p {
+   margin: auto auto 1em 163.16px;
+   color: white;
+     }
+  .globe {
+
+    margin-left: 10em;
+    margin-bottom: 9em;
+    width: 13.3em;
+    height: 13.3em;
+    border-radius: 50%;
+  }
+  .sidenav {
+    height: 14rem; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: none; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 4rem; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 12rem;
+     }
+
+  /* The navigation menu links */
+  .sidenav a {
+
+    padding: 0 30px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #818181;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  }
+
+  @media (max-width: 558px) {
+
+    body {
+    margin-top: 110px;
+    padding: 10em auto;
+    background-color: black;
+    background-position: center;
+    }
+    h1 {
+      margin: 0 auto .3em 5.8em;
+      font-size: 25px;
+      color: white; }
+
+    p {
+     margin: auto auto 1em 151.16px;
+     font-size: 13px;
+     color: white;
+       }
+    .globe {
+
+      margin-left: 9em;
+      margin-bottom: 10.5em;
+      width: 11em;
+      height: 11em;
+      border-radius: 50%;
+    }
+    .sidenav {
+      height: 14rem; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color: none; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 4rem; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      margin-top: 12rem;
+       }
+
+    /* The navigation menu links */
+    .sidenav a {
+
+      padding: 0 30px 20px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #818181;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    }
+
+
+.profile { border-radius: 50%;}
+
+
+
+.open {
+color: #FFFFFF;
+position: absolute;
+ }
+
+
+
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */

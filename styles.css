@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('Background-Lion_upscaled_image_x4.jpg');
+  background-image: url('/Users/temp/Desktop/Full Stack Web Development/Web Development/CSS - CV/Images/Background-Lion_upscaled_image_x4.jpg');
  background-repeat: no-repeat;
 
  background-attachment: scroll;
@@ -50,7 +50,7 @@ background-color: black;
       padding: 0 30px 20px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: #fff;
+      color: white;
       display: block;
       transition: 0.3s;
     }
@@ -111,7 +111,7 @@ p {
   padding: 0 30px 20px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #fff;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -133,6 +133,7 @@ p {
 
 @media (max-width: 1089px)and (min-width: 994px) {
 body {
+margin: 20px auto 100px;
 padding-top: 75px;
 background-color: black;
 background-position: cover;
@@ -147,10 +148,11 @@ p {
  color: white;
    }
 .globe {
+  margin-bottom: 30px;
   image: static;
   margin-left: 15em;
-  width: 17em;
-  height: 17em;
+  width: 18em;
+  height: 18em;
   border-radius: 50%;
 }
 .sidenav {
@@ -173,7 +175,7 @@ p {
   padding: 0 30px 20px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #fff;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -196,25 +198,27 @@ p {
 
 @media (max-width: 994px) and (min-width: 630px) {
 body {
-  margin: 110px auto auto auto;
+  margin: 110px auto 80px auto;
 padding-top: 80px;
 background-color: black;
 background-position: bottom;
 }
 h1 {
-  margin: -10px auto .3em 7.2em;
+  margin: -80px auto .3em 4.55em;
+  font-size:40px;
   color: white; }
 
 p {
- margin: auto auto 1em 240.16px;
+ margin: auto auto 1em 195.16px;
+ font-size: 20px;
  color: white;
    }
 .globe {
   image: static;
-  margin-left: 14.5em;
+  margin-left: 9em;
   margin-bottom: 9em;
-  width: 15em;
-  height: 15em;
+  width: 25em;
+  height: 25em;
   border-radius: 50%;
 }
 .sidenav {
@@ -224,7 +228,7 @@ p {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: black; /* Black*/
+  background-color: none; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 4rem; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */

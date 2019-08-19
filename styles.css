@@ -321,19 +321,19 @@ p {
   @media (max-width: 558px) {
 
     body {
-    margin-top: 210px;
+    margin-top: 510px;
     padding: 10em auto;
     background-color: black;
     background-position: center;
     }
     h1 {
       margin: 0 auto .3em 5.8em;
-      font-size: 25px;
+      font-size: 30px;
       color: white; }
 
     p {
      margin: auto auto 1em 151.16px;
-     font-size: 13px;
+     font-size: 18px;
      color: white;
        }
     .globe {

@@ -1,39 +1,172 @@
 
-Body {
-  background-image: url("Background-Lion_upscaled_image_x4.jpg");
+body {
+  background-image: url('/Users/temp/Desktop/Full Stack Web Development/Web Development/CSS - CV/Images/Background-Lion_upscaled_image_x4.jpg');
  background-repeat: no-repeat;
-background-image: static;
- background-attachment: absolute;
+
+ background-attachment: scroll;
  background-position: bottom-right;
  background-size: cover;
  font-family: "Arial Bold",Arial Gold,Gadget,sans-serif;
 
 }
 
+ @media (min-width: 1355px) {
+ body {
+ background-position: cover;
+background-color: black;
+ }
+ h1 {
+   margin: 4em auto .3em 11.33em;
+   color: white; }
 
-h1 {
+ p {
+  margin: auto auto 2em 372.16px;
   color: white;
-  margin-top: 4em;
-  margin-left: 11.33em;
-  }
+    }
+    .globe {
+      image: static;
+      margin-left: 20em;
+      width: 20em;
+      height: 20em;
+      border-radius: 50%;
+    }
+}
+
+@media (max-width: 1355px) and (min-width: 1090px) {
+body {
+background-position: cover;
+background-color: black;
+}
+h1 {
+  margin: 3em auto .3em 9.33em;
+  color: white; }
 
 p {
-  color: white;
-  margin-left: 23.26em;
+ margin: auto auto 1em 311.16px;
+ color: white;
+   }
+.globe {
+  image: static;
+  margin-left: 16.4em;
+  margin-bottom: 18px;
+  width: 18em;
+  height: 18em;
+  border-radius: 50%;
+}
+}
+
+@media (max-width: 1089px)and (min-width: 994px) {
+body {
+padding-top: 75px;
+background-color: black;
+background-position: cover;
+
+}
+h1 {
+  margin: -1.4em auto .3em 8em;
+  color: white; }
+
+p {
+ margin: auto auto 1em 266.16px;
+ color: white;
+   }
+.globe {
+  image: static;
+  margin-left: 15em;
+  width: 17em;
+  height: 17em;
+  border-radius: 50%;
+}
+}
+
+
+@media (max-width: 994px) and (min-width: 630px) {
+body {
+padding-top: 80px;
+background-color: black;
+background-position: bottom;
+}
+h1 {
+  margin: 0 auto .3em 7.2em;
+  color: white; }
+
+p {
+ margin: auto auto 1em 240.16px;
+ color: white;
+   }
+.globe {
+  image: static;
+  margin-left: 14em;
+  margin-bottom: 9em;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+}
+}
+
+@media (max-width: 629px) and (min-width: 558px) {
+  body {
+  padding-top: 80px;
+  background-color: black;
+  background-position: bottom;
   }
+  h1 {
+    margin: 0 auto .3em 4.7em;
+    color: white; }
+
+  p {
+   margin: auto auto 1em 163.16px;
+   color: white;
+     }
+  .globe {
+
+    margin-left: 10em;
+    margin-bottom: 9em;
+    width: 13.3em;
+    height: 13.3em;
+    border-radius: 50%;
+  }
+  }
+
+  @media (max-width: 558px) {
+
+    body {
+    margin-top: 110px;
+    padding: 10em auto;
+    background-color: black;
+    background-position: center;
+    }
+    h1 {
+      margin: 0 auto .3em 5.8em;
+      font-size: 25px;
+      color: white; }
+
+    p {
+     margin: auto auto 1em 151.16px;
+     font-size: 13px;
+     color: white;
+       }
+    .globe {
+
+      margin-left: 9em;
+      margin-bottom: 10.5em;
+      width: 11em;
+      height: 11em;
+      border-radius: 50%;
+    }
+    }
+
+
+.profile { border-radius: 50%;}
+
+
 
 .open {
 color: #FFFFFF;
 position: absolute;
  }
 
-.globe {
-  image: static;
-  margin-left: 20em;
-  width: 20em;
-  height: 20em;
-  border-radius: 50%;
-}
+
 
 
 /* The side navigation menu */
@@ -44,7 +177,7 @@ position: absolute;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: black; /* Black*/
+  background-color: none; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 4rem; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -53,7 +186,8 @@ position: absolute;
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+
+  padding: 0 30px 20px 32px;
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -73,95 +207,4 @@ position: absolute;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 481px) 
-  
-  {
-  
-  
-Body {
-  background-image: url("Background-Lion_upscaled_image_x4.jpg");
- background-repeat: no-repeat;
-background-image: static;
- background-attachment: absolute;
- background-position: bottom-right;
- background-size: cover;
- font-family: "Arial Bold",Arial Gold,Gadget,sans-serif;
-
-}
-
-
-h1 {
-  color: white;
-  margin-top: 1em;
-  margin-left: 3.33em;
-  }
-
-p {
-  color: white;
-  margin-left: 4.26em;
-  }
-
-.open {
-color: white;
-position: absolute;
- }
-
-.globe {
-  image: static;
-  margin-left: 4em;
-  width: 8em;
-  height: 8em;
-  border-radius: 50%;
-}
-
-
-/* The side navigation menu */
-.sidenav {
-  height: 7rem; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: black; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 1em; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  margin-top: 6rem;
-   }
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 1.2em;
-  text-decoration: none;
-  font-size: 15px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #818181;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 1rem;
-  font-size: 1.2rem;
-  margin-left: 1.4rem;
-}
-
 }

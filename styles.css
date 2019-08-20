@@ -16,7 +16,7 @@ body {
 background-color: black;
  }
  h1 {
-   margin: 4em auto .3em 11.33em;
+   margin: 2.5em auto .3em 11.33em;
    color: white; }
 
  p {
@@ -26,8 +26,8 @@ background-color: black;
     .globe {
       image: static;
       margin-left: 20em;
-      width: 20em;
-      height: 20em;
+      width: 22em;
+      height: 22em;
       border-radius: 50%;
     }
     .sidenav {

@@ -219,7 +219,8 @@ p {
 .globe {
   image: static;
   margin-left: 7em;
-  margin-bottom: 9em;
+  margin-bottom: 13em;
+  margin-top: 6em;
   width: 25em;
   height: 25em;
   border-radius: 50%;

@@ -218,16 +218,16 @@ p {
    }
 .globe {
   image: static;
-  margin-left: 7em;
+  margin-left: 8.55em;
   margin-bottom: 13em;
-  margin-top: 6em;
+  margin-top: 2em;
   width: 25em;
   height: 25em;
   border-radius: 50%;
 }
 .navbar {
   padding: 0 0 4.5rem;
-  margin-top: -180px;
+  margin-top: -140px;
   color: white;
 
 

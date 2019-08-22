@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('Background-Lion_upscaled_image_x4.jpg');
+ background-image: url('Background-Lion_upscaled_image_x4.jpg');
  background-repeat: no-repeat;
 
  background-attachment: scroll;
@@ -8,395 +8,107 @@ body {
  background-size: cover;
  font-family: "Arial Bold",Arial Gold,Gadget,sans-serif;
 
+ margin: 150px auto 80px auto;
+ padding-top: 80px;
+ background-color: black;
+ background-position: bottom;
+
+}
+.option {
+  margin-top: 2.5em;
+  margin-right: 2em;
 }
 
- @media (min-width: 1355px) {
- body {
- background-position: cover;
-background-color: black;
- }
- h1 {
-   margin: 2.5em auto .3em 11.33em;
-   color: white; }
-
- p {
-  margin: auto auto 2em 372.16px;
-  color: white;
-    }
-    .globe {
-      image: static;
-      margin-left: 20em;
-      width: 22em;
-      height: 22em;
-      border-radius: 50%;
-    }
-    .sidenav {
-      height: 14rem; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Stay on top */
-      top: 0; /* Stay at the top */
-      left: 0;
-      background-color: black; /* Black*/
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 4rem; /* Place content 60px from the top */
-      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-      margin-top: 12rem;
-       }
-
-    /* The navigation menu links */
-    .sidenav a {
-
-      padding: 0 30px 20px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      transition: 0.3s;
-    }
-
-    /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover {
-      color: #818181;
-    }
-
-    /* Position and style the close button (top right corner) */
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-    }
-}
-
-@media (max-width: 1355px) and (min-width: 1090px) {
-body {
-background-position: cover;
-background-color: black;
+.navbar-brand {
+  font-size: 39px;
+  margin-top: -17em;
 }
 h1 {
-  margin: 3em auto .3em 9.33em;
-  color: white; }
-
-p {
- margin: auto auto 1em 311.16px;
- color: white;
-   }
-.globe {
-  image: static;
-  margin-left: 16.4em;
-  margin-bottom: 18px;
-  width: 18em;
-  height: 18em;
-  border-radius: 50%;
-}
-.sidenav {
-  height: 14rem; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: black; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 4rem; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  margin-top: 12rem;
-   }
-
-/* The navigation menu links */
-.sidenav a {
-
-  padding: 0 30px 20px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #818181;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-}
-
-@media (max-width: 1089px)and (min-width: 994px) {
-body {
-margin: 20px auto 100px;
-padding-top: 75px;
-background-color: black;
-background-position: cover;
-
-}
-h1 {
-  margin: -1.4em auto .3em 8em;
-  color: white; }
-
-p {
- margin: auto auto 1em 266.16px;
- color: white;
-   }
-.globe {
-  margin-bottom: 30px;
-  image: static;
-  margin-left: 15em;
-  width: 18em;
-  height: 18em;
-  border-radius: 50%;
-}
-.sidenav {
-  height: 14rem; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: black; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 4rem; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  margin-top: 12rem;
-   }
-
-/* The navigation menu links */
-.sidenav a {
-
-  padding: 0 30px 20px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #818181;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-}
-
-
-
-@media (max-width: 994px) and (min-width: 630px) {
-body {
-margin: 110px auto 80px auto;
-padding-top: 80px;
-background-color: black;
-background-position: bottom;
-}
-h1 {
-  margin: -80px auto 50px 1.20em;
+  margin: -15em auto auto -15.5em;
   font-family: "Catamaran";
   font-weight: bold;
   font-size:20px;
   color: white; }
 
-p {
- margin: auto auto 1em 195.16px;
- font-size: 20px;
- color: white;
-   }
-.globe {
-  image: static;
-  margin-left: 8.9em;
-  margin-bottom: 13em;
-  margin-top: 2em;
-  width: 25em;
-  height: 25em;
-  border-radius: 50%;
-}
-.navbar {
-  padding: 0 0 4.5rem;
-  margin-top: -140px;
-  color: white;
-
-
-}
-.navbar-brand {
-  font-family: "Catamaran";
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: white;
-}
-
-.navbar-nav {
-  padding: 0 18px;
-  text-align: right;
-  color: white;
-  overflow-x: hidden;
-}
-
-.nav-link {
-  font-size: 1rem;
-}
-
-.download-button {
-   margin: 5% 3% 5% 0;
-}
-}
-
-@media (max-width: 629px) and (min-width: 558px) {
-  body {
-    margin-top:100px;
-  padding-top: 80px;
-  background-color: black;
-  background-position: bottom;
-  }
-  h1 {
-    margin: -30px auto .3em 4.7em;
-    color: white; }
-
-  p {
-   margin: auto auto 1em 163.16px;
-   color: white;
-     }
   .globe {
 
-    margin-left: 10em;
-    margin-bottom: 9em;
-    width: 14em;
-    height: 14em;
+    margin: -15.5em 10.5em 10em 21.79em;
+    width: 23.5em;
+    height: 23.5em;
     border-radius: 50%;
   }
-  .sidenav {
-    height: 14rem; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: none; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 4rem; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    margin-top: 12rem;
-     }
 
-  /* The navigation menu links */
-  .sidenav a {
-
-    padding: 0 30px 20px 32px;
-    text-decoration: none;
+  .nav-link {
+    margin-top: -9.5em;
+    margin-bottom: 11.5em;
+    font-family: "Catamaran";
     font-size: 25px;
     color: white;
-    display: block;
-    transition: 0.3s;
+    font-weight: bold;
   }
 
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #818181;
+  .nav-link:hover {
+    color: grey;
   }
 
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+
+@media (max-width: 1151px) and (min-width: 947px) {
+
+body{
+    background-position: cover;
+  }
+
+h1 {
+  margin-left: -15.2em;
+  margin-top: -15.9em;
+}
+.navbar-brand {
+    margin-top: -18.6em;
+    font-size: 37px;
+  }
+.globe {
+    margin-bottom: 12em;
+    margin-left: 19.5em;
+    width: 19.5em;
+    height: 19em;
+  }
+  .option {
+    margin-top: 1.7em;
+    margin-right: 1em;
   }
   }
 
-  @media (max-width: 558px) {
+  @media (max-width: 946px) and (min-width: 801px) {
+    .globe {
+      margin-left: 11em;
+    }
+    .option {
+      margin-right: -1em;
+    }
+  }
 
-    body {
-    margin-top: 150px;
-    padding: 10em auto;
-    background-color: black;
+  @media (max-width: 800px ){
+  body {
     background-position: center;
+  }
+    .option {
+      justify-content: bottom;
+      font-size: 20px;
+    }
+    .navbar-brand {
+      justify-content: center;
+      margin-top: -22.2em;
+      margin-left: 2.3em;
+      font-size: 33px;
     }
     h1 {
-      margin: 0 auto .3em 5.8em;
-      font-size: 25px;
-      color: white; }
-
-    p {
-     margin: auto auto 1em 151.16px;
-     font-size: 13px;
-     color: white;
-       }
+      margin-left: -80em;
+    }
     .globe {
-
-      margin-left: 9em;
-      margin-bottom: 10.5em;
-      width: 12em;
-      height: 12em;
+      justify-content: center;
+      margin: -15.5em 2.5em 10em 2.79em;
+      width: 19em;
+      height: 19em;
       border-radius: 50%;
     }
-    .sidenav {
-      height: 14rem; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Stay on top */
-      top: 0; /* Stay at the top */
-      left: 0;
-      background-color: none; /* Black*/
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 4rem; /* Place content 60px from the top */
-      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-      margin-top: 1rem;
-       }
-
-    /* The navigation menu links */
-    .sidenav a {
-
-      padding: 0px 30px 20px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      transition: 0.3s;
-
-    }
-
-    /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover {
-      color: #818181;
-    }
-
-    /* Position and style the close button (top right corner) */
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-    }
-    }
-
-
-.profile { border-radius: 50%;}
-
-
-
-.open {
-color: #fff;
-position: absolute;
-padding-top: 10px;
- }
-
-
-
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  }

@@ -80,7 +80,7 @@ h1 {
 
   @media (max-width: 946px) and (min-width: 801px) {
     .globe {
-      margin-left: 11em;
+      margin-left: 10em;
     }
     .option {
       margin-right: -1em;

@@ -87,7 +87,7 @@ h1 {
     }
   }
 
-  @media (max-width: 800px ){
+   @media (max-width: 800px ){
   body {
     background-position: center;
   }
@@ -101,16 +101,17 @@ h1 {
       margin-left: 2.3em;
       font-size: 33px;
     }
-   .nav-link {
-     font-size: 24px;
+    .nav-link{
+    font-size: 24px;
+    }
     h1 {
       margin-left: -80em;
     }
     .globe {
       justify-content: center;
       margin: -15.5em 2.5em 10em 2.79em;
-      width: 15.5em;
-      height: 15.5em;
+      width: 19em;
+      height: 19em;
       border-radius: 50%;
     }
   }

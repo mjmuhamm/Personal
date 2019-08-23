@@ -33,8 +33,8 @@ h1 {
   .globe {
 
     margin: -15.5em 10.5em 10em 21.79em;
-    width: 22.7em;
-    height: 22.7em;
+    width: 19em;
+    height: 19em;
     border-radius: 50%;
   }
 
@@ -69,8 +69,8 @@ h1 {
 .globe {
     margin-bottom: 12em;
     margin-left: 19.5em;
-    width: 19.5em;
-    height: 19em;
+    width: 15.75em;
+    height: 15.75em;
   }
   .option {
     margin-top: 1.7em;
@@ -107,8 +107,8 @@ h1 {
     .globe {
       justify-content: center;
       margin: -15.5em 2.5em 10em 2.79em;
-      width: 19em;
-      height: 19em;
+      width: 15.5em;
+      height: 15.5em;
       border-radius: 50%;
     }
   }

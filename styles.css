@@ -81,6 +81,8 @@ h1 {
   @media (max-width: 946px) and (min-width: 801px) {
     .globe {
       margin-left: 10em;
+     width: 15.5em;
+     height: 15em;
     }
     .option {
       margin-right: -1em;
@@ -109,9 +111,9 @@ h1 {
     }
     .globe {
       justify-content: center;
-      margin: -15.5em 2.5em 10em 2.79em;
-      width: 19em;
-      height: 19em;
+      margin: -15.5em 2.5em 10em 5.79em;
+      width: 15.5em;
+      height: 15em;
       border-radius: 50%;
     }
   }
